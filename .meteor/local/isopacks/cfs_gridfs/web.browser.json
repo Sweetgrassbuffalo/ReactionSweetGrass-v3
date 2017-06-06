@@ -1,0 +1,45 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "cfs:base-package",
+      "constraint": "0.0.30"
+    },
+    {
+      "package": "cfs:storage-adapter",
+      "constraint": "0.2.1"
+    },
+    {
+      "package": "ecmascript"
+    }
+  ],
+  "resources": [
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/gridfs.client.js",
+      "length": 808,
+      "offset": 0,
+      "path": "gridfs.client.js",
+      "hash": "f72785e94ba92b0c9e176cb403d8397d7087ecf3",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/gridfs.server.js",
+      "length": 5520,
+      "offset": 0,
+      "path": "gridfs.server.js",
+      "hash": "53ae45e04960dbfad51d0a93dba1e5ad43053cbb",
+      "fileOptions": {
+        "lazy": true
+      }
+    }
+  ],
+  "node_modules": "npm/node_modules"
+}

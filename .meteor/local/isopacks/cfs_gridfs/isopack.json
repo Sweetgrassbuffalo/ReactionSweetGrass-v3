@@ -1,0 +1,21 @@
+{
+  "isopack-2": {
+    "name": "cfs:gridfs",
+    "summary": "GridFS storage adapter for CollectionFS",
+    "version": "0.0.34",
+    "isTest": false,
+    "builds": [
+      {
+        "kind": "main",
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      }
+    ],
+    "plugins": []
+  }
+}

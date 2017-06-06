@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"layoutFooter\");\nTemplate[\"layoutFooter\"] = new Template(\"Template.layoutFooter\", (function() {\n  var view = this;\n  return HTML.Raw('<nav class=\"navbar-bottom\" role=\"navigation\">\\n    <div class=\"row\">\\n\\n    </div>\\n  </nav>');\n}));\n","bodyAttrs":{}}
