@@ -1,0 +1,604 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "path": "packages/underscore.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/meteor/node_modules",
+      "path": "packages/meteor.js"
+    },
+    {
+      "path": "packages/meteor-base.js"
+    },
+    {
+      "path": "packages/mobile-experience.js"
+    },
+    {
+      "path": "packages/blaze-html-templates.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules-runtime/node_modules",
+      "path": "packages/modules-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules/node_modules",
+      "path": "packages/modules.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/es5-shim/node_modules",
+      "path": "packages/es5-shim.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/promise/node_modules",
+      "path": "packages/promise.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript-runtime/node_modules",
+      "path": "packages/ecmascript-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/babel-compiler/node_modules",
+      "path": "packages/babel-compiler.js"
+    },
+    {
+      "sourceMap": "packages/ecmascript.js.map",
+      "path": "packages/ecmascript.js"
+    },
+    {
+      "path": "packages/audit-argument-checks.js"
+    },
+    {
+      "path": "packages/base64.js"
+    },
+    {
+      "path": "packages/ejson.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/logging/node_modules",
+      "path": "packages/logging.js"
+    },
+    {
+      "path": "packages/routepolicy.js"
+    },
+    {
+      "path": "packages/tracker.js"
+    },
+    {
+      "path": "packages/deps.js"
+    },
+    {
+      "path": "packages/htmljs.js"
+    },
+    {
+      "path": "packages/html-tools.js"
+    },
+    {
+      "path": "packages/blaze-tools.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/spacebars-compiler/node_modules",
+      "path": "packages/spacebars-compiler.js"
+    },
+    {
+      "path": "packages/id-map.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/babel-runtime/node_modules",
+      "path": "packages/babel-runtime.js"
+    },
+    {
+      "sourceMap": "packages/random.js.map",
+      "path": "packages/random.js"
+    },
+    {
+      "path": "packages/mongo-id.js"
+    },
+    {
+      "path": "packages/diff-sequence.js"
+    },
+    {
+      "path": "packages/observe-sequence.js"
+    },
+    {
+      "path": "packages/jquery.js"
+    },
+    {
+      "path": "packages/check.js"
+    },
+    {
+      "path": "packages/reactive-var.js"
+    },
+    {
+      "path": "packages/ordered-dict.js"
+    },
+    {
+      "path": "packages/blaze.js"
+    },
+    {
+      "path": "packages/spacebars.js"
+    },
+    {
+      "path": "packages/ui.js"
+    },
+    {
+      "path": "packages/boilerplate-generator.js",
+      "assets": {
+        "boilerplate_web.browser.html": "assets/packages/boilerplate-generator/boilerplate_web.browser.html",
+        "boilerplate_web.cordova.html": "assets/packages/boilerplate-generator/boilerplate_web.cordova.html"
+      }
+    },
+    {
+      "sourceMap": "packages/webapp-hashing.js.map",
+      "path": "packages/webapp-hashing.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/webapp/node_modules",
+      "sourceMap": "packages/webapp.js.map",
+      "path": "packages/webapp.js"
+    },
+    {
+      "path": "packages/browser-policy-common.js"
+    },
+    {
+      "path": "packages/browser-policy-content.js"
+    },
+    {
+      "path": "packages/browser-policy-framing.js"
+    },
+    {
+      "path": "packages/browser-policy.js"
+    },
+    {
+      "path": "packages/juliancwirko_postcss.js"
+    },
+    {
+      "path": "packages/abernix_standard-minifier-js.js"
+    },
+    {
+      "path": "packages/session.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/npm-mongo/node_modules",
+      "path": "packages/npm-mongo.js"
+    },
+    {
+      "path": "packages/geojson-utils.js"
+    },
+    {
+      "sourceMap": "packages/minimongo.js.map",
+      "path": "packages/minimongo.js"
+    },
+    {
+      "path": "packages/retry.js"
+    },
+    {
+      "path": "packages/ddp-common.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-client/node_modules",
+      "sourceMap": "packages/ddp-client.js.map",
+      "path": "packages/ddp-client.js"
+    },
+    {
+      "path": "packages/rate-limit.js"
+    },
+    {
+      "path": "packages/ddp-rate-limiter.js"
+    },
+    {
+      "path": "packages/callback-hook.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-server/node_modules",
+      "sourceMap": "packages/ddp-server.js.map",
+      "path": "packages/ddp-server.js"
+    },
+    {
+      "path": "packages/ddp.js"
+    },
+    {
+      "sourceMap": "packages/allow-deny.js.map",
+      "path": "packages/allow-deny.js"
+    },
+    {
+      "path": "packages/binary-heap.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/mongo/node_modules",
+      "sourceMap": "packages/mongo.js.map",
+      "path": "packages/mongo.js"
+    },
+    {
+      "sourceMap": "packages/reactive-dict.js.map",
+      "path": "packages/reactive-dict.js"
+    },
+    {
+      "path": "packages/url.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/http/node_modules",
+      "sourceMap": "packages/http.js.map",
+      "path": "packages/http.js"
+    },
+    {
+      "path": "packages/reload.js"
+    },
+    {
+      "path": "packages/less.js"
+    },
+    {
+      "path": "packages/oauth-encryption.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "path": "packages/service-configuration.js"
+    },
+    {
+      "path": "packages/amplify.js"
+    },
+    {
+      "sourceMap": "packages/mdg_validated-method.js.map",
+      "path": "packages/mdg_validated-method.js"
+    },
+    {
+      "sourceMap": "packages/shell-server.js.map",
+      "path": "packages/shell-server.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/npm-bcrypt/node_modules",
+      "path": "packages/npm-bcrypt.js"
+    },
+    {
+      "path": "packages/sha.js"
+    },
+    {
+      "path": "packages/srp.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/email/node_modules",
+      "path": "packages/email.js"
+    },
+    {
+      "sourceMap": "packages/accounts-password.js.map",
+      "path": "packages/accounts-password.js"
+    },
+    {
+      "path": "packages/localstorage.js"
+    },
+    {
+      "path": "packages/oauth.js",
+      "assets": {
+        "end_of_popup_response.html": "assets/packages/oauth/end_of_popup_response.html",
+        "end_of_redirect_response.html": "assets/packages/oauth/end_of_redirect_response.html"
+      }
+    },
+    {
+      "path": "packages/accounts-oauth.js"
+    },
+    {
+      "path": "packages/oauth2.js"
+    },
+    {
+      "path": "packages/facebook-oauth.js"
+    },
+    {
+      "path": "packages/facebook-config-ui.js"
+    },
+    {
+      "path": "packages/accounts-facebook.js"
+    },
+    {
+      "sourceMap": "packages/google-oauth.js.map",
+      "path": "packages/google-oauth.js"
+    },
+    {
+      "path": "packages/google-config-ui.js"
+    },
+    {
+      "path": "packages/accounts-google.js"
+    },
+    {
+      "path": "packages/oauth1.js"
+    },
+    {
+      "path": "packages/twitter-oauth.js"
+    },
+    {
+      "path": "packages/twitter-config-ui.js"
+    },
+    {
+      "path": "packages/accounts-twitter.js"
+    },
+    {
+      "path": "packages/alanning_roles.js"
+    },
+    {
+      "path": "packages/aldeed_simple-schema.js"
+    },
+    {
+      "path": "packages/aldeed_autoform.js"
+    },
+    {
+      "path": "packages/raix_eventemitter.js"
+    },
+    {
+      "path": "packages/aldeed_collection2-core.js"
+    },
+    {
+      "sourceMap": "packages/aldeed_schema-index.js.map",
+      "path": "packages/aldeed_schema-index.js"
+    },
+    {
+      "path": "packages/aldeed_schema-deny.js"
+    },
+    {
+      "path": "packages/aldeed_collection2.js"
+    },
+    {
+      "path": "packages/aldeed_template-extension.js"
+    },
+    {
+      "path": "packages/cfs_base-package.js"
+    },
+    {
+      "path": "packages/livedata.js"
+    },
+    {
+      "path": "packages/mongo-livedata.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/cfs_graphicsmagick/node_modules",
+      "path": "packages/cfs_graphicsmagick.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/cfs_storage-adapter/node_modules",
+      "path": "packages/cfs_storage-adapter.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/cfs_filesystem/node_modules",
+      "path": "packages/cfs_filesystem.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/cfs_gridfs/node_modules",
+      "sourceMap": "packages/cfs_gridfs.js.map",
+      "path": "packages/cfs_gridfs.js"
+    },
+    {
+      "path": "packages/cfs_standard-packages.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/cfs_data-man/node_modules",
+      "path": "packages/cfs_data-man.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/cfs_file/node_modules",
+      "path": "packages/cfs_file.js"
+    },
+    {
+      "path": "packages/templating-compiler.js"
+    },
+    {
+      "path": "packages/templating-runtime.js"
+    },
+    {
+      "path": "packages/templating.js"
+    },
+    {
+      "path": "packages/cfs_ui.js"
+    },
+    {
+      "path": "packages/dispatch_run-as-user.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/jeremy_stripe/node_modules",
+      "sourceMap": "packages/jeremy_stripe.js.map",
+      "path": "packages/jeremy_stripe.js"
+    },
+    {
+      "path": "packages/jparker_crypto-core.js"
+    },
+    {
+      "path": "packages/jparker_crypto-md5.js"
+    },
+    {
+      "path": "packages/jparker_gravatar.js"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert.js"
+    },
+    {
+      "path": "packages/juliancwirko_s-alert-stackslide.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/kadira_dochead/node_modules",
+      "sourceMap": "packages/kadira_dochead.js.map",
+      "path": "packages/kadira_dochead.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/matb33_collection-hooks/node_modules",
+      "path": "packages/matb33_collection-hooks.js"
+    },
+    {
+      "path": "packages/meteorhacks_ssr.js"
+    },
+    {
+      "path": "packages/meteorhacks_subs-manager.js"
+    },
+    {
+      "path": "packages/natestrauser_select2.js"
+    },
+    {
+      "sourceMap": "packages/ongoworks_security.js.map",
+      "path": "packages/ongoworks_security.js"
+    },
+    {
+      "path": "packages/raix_ui-dropped-event.js"
+    },
+    {
+      "path": "packages/momentjs_moment.js"
+    },
+    {
+      "path": "packages/risul_moment-timezone.js"
+    },
+    {
+      "path": "packages/tmeasday_publish-counts.js"
+    },
+    {
+      "path": "packages/mrt_later.js"
+    },
+    {
+      "path": "packages/coffeescript.js"
+    },
+    {
+      "sourceMap": "packages/vsivsi_job-collection.js.map",
+      "path": "packages/vsivsi_job-collection.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/tmeasday_check-npm-versions/node_modules",
+      "sourceMap": "packages/tmeasday_check-npm-versions.js.map",
+      "path": "packages/tmeasday_check-npm-versions.js"
+    },
+    {
+      "sourceMap": "packages/react-meteor-data.js.map",
+      "path": "packages/react-meteor-data.js"
+    },
+    {
+      "path": "packages/percolate_migrations.js"
+    },
+    {
+      "sourceMap": "packages/gadicc_blaze-react-component.js.map",
+      "path": "packages/gadicc_blaze-react-component.js"
+    },
+    {
+      "sourceMap": "packages/dburles_factory.js.map",
+      "path": "packages/dburles_factory.js"
+    },
+    {
+      "path": "packages/practicalmeteor_chai.js"
+    },
+    {
+      "path": "packages/practicalmeteor_sinon.js"
+    },
+    {
+      "node_modules": {
+        "npm/node_modules/meteor/johanbrook_publication-collector/node_modules": {
+          "packageName": "johanbrook:publication-collector",
+          "local": true
+        },
+        "npm/node_modules/meteor/johanbrook_publication-collector/test-app/node_modules": {
+          "packageName": "johanbrook:publication-collector",
+          "local": true
+        }
+      },
+      "sourceMap": "packages/johanbrook_publication-collector.js.map",
+      "path": "packages/johanbrook_publication-collector.js"
+    },
+    {
+      "path": "packages/hot-code-push.js"
+    },
+    {
+      "path": "packages/launch-screen.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/cfs_tempstore/node_modules",
+      "path": "packages/cfs_tempstore.js"
+    },
+    {
+      "path": "packages/cfs_http-methods.js"
+    },
+    {
+      "path": "packages/cfs_http-publish.js"
+    },
+    {
+      "path": "packages/cfs_access-point.js"
+    },
+    {
+      "path": "packages/cfs_reactive-property.js"
+    },
+    {
+      "path": "packages/cfs_reactive-list.js"
+    },
+    {
+      "path": "packages/cfs_power-queue.js"
+    },
+    {
+      "path": "packages/cfs_upload-http.js"
+    },
+    {
+      "path": "packages/cfs_collection.js"
+    },
+    {
+      "path": "packages/cfs_collection-filters.js"
+    },
+    {
+      "path": "packages/cfs_worker.js"
+    },
+    {
+      "path": "packages/autoupdate.js"
+    },
+    {
+      "node_modules": "npm/node_modules",
+      "path": "packages/global-imports.js"
+    },
+    {
+      "node_modules": "npm/node_modules",
+      "sourceMap": "app/app.js.map",
+      "path": "app/app.js",
+      "assets": {
+        "custom/.gitkeep": "assets/app/custom/.gitkeep",
+        "data/Products.json": "assets/app/data/Products.json",
+        "data/Shipping.json": "assets/app/data/Shipping.json",
+        "data/Shops.json": "assets/app/data/Shops.json",
+        "data/Tags.json": "assets/app/data/Tags.json",
+        "settings/.gitignore": "assets/app/settings/.gitignore",
+        "settings/reaction.json.example": "assets/app/settings/reaction.json.example",
+        "themes/button.css": "assets/app/themes/button.css",
+        "themes/navbar.css": "assets/app/themes/navbar.css",
+        "themes/notFound.css": "assets/app/themes/notFound.css",
+        "themes/theme.css": "assets/app/themes/theme.css",
+        "data/i18n/ar.json": "assets/app/data/i18n/ar.json",
+        "data/i18n/bg.json": "assets/app/data/i18n/bg.json",
+        "data/i18n/cs.json": "assets/app/data/i18n/cs.json",
+        "data/i18n/de.json": "assets/app/data/i18n/de.json",
+        "data/i18n/el.json": "assets/app/data/i18n/el.json",
+        "data/i18n/en.json": "assets/app/data/i18n/en.json",
+        "data/i18n/es.json": "assets/app/data/i18n/es.json",
+        "data/i18n/fr.json": "assets/app/data/i18n/fr.json",
+        "data/i18n/he.json": "assets/app/data/i18n/he.json",
+        "data/i18n/hr.json": "assets/app/data/i18n/hr.json",
+        "data/i18n/hu.json": "assets/app/data/i18n/hu.json",
+        "data/i18n/it.json": "assets/app/data/i18n/it.json",
+        "data/i18n/my.json": "assets/app/data/i18n/my.json",
+        "data/i18n/nb.json": "assets/app/data/i18n/nb.json",
+        "data/i18n/nl.json": "assets/app/data/i18n/nl.json",
+        "data/i18n/pl.json": "assets/app/data/i18n/pl.json",
+        "data/i18n/pt.json": "assets/app/data/i18n/pt.json",
+        "data/i18n/ro.json": "assets/app/data/i18n/ro.json",
+        "data/i18n/ru.json": "assets/app/data/i18n/ru.json",
+        "data/i18n/sl.json": "assets/app/data/i18n/sl.json",
+        "data/i18n/sv.json": "assets/app/data/i18n/sv.json",
+        "data/i18n/tr.json": "assets/app/data/i18n/tr.json",
+        "data/i18n/vi.json": "assets/app/data/i18n/vi.json",
+        "data/i18n/zh.json": "assets/app/data/i18n/zh.json",
+        "email/templates/coreDefault.html": "assets/app/email/templates/coreDefault.html",
+        "email/templates/accounts/inviteShopMember.html": "assets/app/email/templates/accounts/inviteShopMember.html",
+        "email/templates/accounts/resetPassword.html": "assets/app/email/templates/accounts/resetPassword.html",
+        "email/templates/accounts/sendWelcomeEmail.html": "assets/app/email/templates/accounts/sendWelcomeEmail.html",
+        "email/templates/accounts/verifyEmail.html": "assets/app/email/templates/accounts/verifyEmail.html",
+        "email/templates/checkout/checkoutLogin.html": "assets/app/custom/.gitkeep",
+        "email/templates/orders/new.html": "assets/app/email/templates/orders/new.html",
+        "email/templates/orders/refunded.html": "assets/app/email/templates/orders/refunded.html",
+        "email/templates/orders/shipped.html": "assets/app/email/templates/orders/shipped.html"
+      }
+    },
+    {
+      "sourceMap": "packages/mdg_validation-error.js.map",
+      "path": "packages/mdg_validation-error.js"
+    }
+  ]
+}

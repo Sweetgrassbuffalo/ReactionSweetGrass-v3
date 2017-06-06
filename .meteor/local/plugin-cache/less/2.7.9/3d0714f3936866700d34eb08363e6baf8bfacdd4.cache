@@ -1,0 +1,2 @@
+{"{}/imports/plugins/included/taxes-avalara/client/styles/settings.less":"898654991e0de828979c9e3f7f45d9f8c50c9f4a"}
+{"css":".avalara-login-box {\n  border: 1px solid #b7d7d0;\n  margin: 30px 0;\n  width: 100%;\n  font-size: 16px;\n}\n","sourceMap":{"version":3,"sources":["imports/plugins/included/taxes-avalara/client/styles/settings.less"],"names":[],"mappings":"AAAA;EACE,yBAAA;EACA,cAAA;EACA,WAAA;EACA,eAAA","sourcesContent":[".avalara-login-box {\n  border: 1px solid #b7d7d0;\n  margin: 30px 0;\n  width: 100%;\n  font-size: 16px;\n}\n"]}}
