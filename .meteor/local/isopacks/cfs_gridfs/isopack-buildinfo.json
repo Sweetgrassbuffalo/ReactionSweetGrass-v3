@@ -1,0 +1,143 @@
+{
+  "builtBy": "meteor/26",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/package.js": "b363e682abfcfc3dc97af479e2f8a3d74bddf910",
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/.npm/package/npm-shrinkwrap.json": "61bcb4d31316f6305481af83a3abef1176a43fe3",
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/gridfs.server.js": "53ae45e04960dbfad51d0a93dba1e5ad43053cbb",
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/gridfs.client.js": "f72785e94ba92b0c9e176cb403d8397d7087ecf3"
+      },
+      "directories": [
+        {
+          "absPath": "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs",
+          "include": [
+            "\\.js$",
+            "\\.jsx$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-tests?.",
+            "\\.app-specs?.",
+            "\\.tests?.",
+            "\\.specs?."
+          ],
+          "names": [],
+          "contents": [
+            "gridfs.client.js",
+            "gridfs.server.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-tests?.",
+            "\\.app-specs?.",
+            "\\.tests?.",
+            "\\.specs?."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.json": {
+      "files": {
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/package.js": "b363e682abfcfc3dc97af479e2f8a3d74bddf910",
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/.npm/package/npm-shrinkwrap.json": "61bcb4d31316f6305481af83a3abef1176a43fe3",
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/gridfs.client.js": "f72785e94ba92b0c9e176cb403d8397d7087ecf3",
+        "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/gridfs.server.js": "53ae45e04960dbfad51d0a93dba1e5ad43053cbb"
+      },
+      "directories": [
+        {
+          "absPath": "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs",
+          "include": [
+            "\\.css$",
+            "\\.js$",
+            "\\.jsx$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-tests?.",
+            "\\.app-specs?.",
+            "\\.tests?.",
+            "\\.specs?."
+          ],
+          "names": [],
+          "contents": [
+            "gridfs.client.js",
+            "gridfs.server.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-tests?.",
+            "\\.app-specs?.",
+            "\\.tests?.",
+            "\\.specs?."
+          ],
+          "contents": []
+        }
+      ]
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs/package.js": "b363e682abfcfc3dc97af479e2f8a3d74bddf910"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "cfs:gridfs": {
+      "kind": "local",
+      "sourceRoot": "/C/FrontlineProcessing/Sweetgrass/ReactionSweetGrass/ReactionSweetGrass/packages/gridfs"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.6.1"
+    },
+    "cfs:base-package": {
+      "kind": "versioned",
+      "version": "0.0.30"
+    },
+    "cfs:storage-adapter": {
+      "kind": "versioned",
+      "version": "0.2.3"
+    },
+    "ecmascript": {
+      "kind": "versioned",
+      "version": "0.7.3"
+    },
+    "modules": {
+      "kind": "versioned",
+      "version": "0.8.2"
+    },
+    "ecmascript-runtime": {
+      "kind": "versioned",
+      "version": "0.3.15"
+    },
+    "babel-runtime": {
+      "kind": "versioned",
+      "version": "1.0.1"
+    },
+    "promise": {
+      "kind": "versioned",
+      "version": "0.8.8"
+    }
+  },
+  "includeCordovaUnibuild": false
+}
